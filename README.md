@@ -13,11 +13,6 @@ The repository currently includes the following models.
 | Hi-Fi Ark | Deep User Representation via High-Fidelity Archive Network                | https://www.ijcai.org/Proceedings/2019/424         |
 | TANR      | Neural News Recommendation with Topic-Aware News Representation           | https://www.aclweb.org/anthology/P19-1110.pdf      |
 
-**Experimental models**
-
-| Model | Description                                                                                        |
-| ----- | -------------------------------------------------------------------------------------------------- |
-| Exp1  | NRMS + (Sub)category + Ensemble + Positional embedding                                             |
 
 ## Get started
 
@@ -93,12 +88,8 @@ tensorboard --logdir=runs/{model_name}
 
 | Model     | AUC | MRR | nDCG@5 | nDCG@10 | Remark |
 | --------- | --- | --- | ------ | ------- | ------ |
-| NRMS      |     |     |        |         |        |
-| NAML      |     |     |        |         |        |
-| LSTUR     |     |     |        |         |        |
 | DKN       |     |     |        |         |        |
-| Hi-Fi Ark |     |     |        |         |        |
-| TANR      |     |     |        |         |        |
+
 
 Checkpoints: <https://drive.google.com/open?id=TODO>
 
